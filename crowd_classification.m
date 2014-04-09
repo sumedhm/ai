@@ -1,0 +1,17 @@
+rgbImagek = imread('img14109.jpg');
+hsv = rgb2hsv(rgbImagek);
+h = hsv(:,:,1);
+subplot(1,2,1);
+numberOfBins = 256;
+imshow(h);
+[pixelCount1, grayLevels] = hist(h(:), numberOfBins);
+pixelCount1(54:64) = 0;
+rgbImagei = imread('img22289.jpg');
+hsv = rgb2hsv(rgbImagei);
+h = hsv(:,:,1);
+subplot(1,2,2);
+imshow(h);
+[pixelCount2, grayLevels] = hist(h(:), numberOfBins);
+pixelCount2(54:64) = 0;
+d_k = sqrt(sum((pixelCount1(:)-pixelCount2(:)).^2));
+disp(d_k);
