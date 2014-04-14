@@ -1,0 +1,15 @@
+img = 'img2.jpg';
+rgbImage = imread(img);
+[rows, columns, numberOfColorBands] = size(rgbImage);
+totalPixels = rows*columns;
+hsv = rgb2hsv(rgbImage);
+h = hsv(:,:,1);
+numberOfBins = 256;
+[pixelCount, grayLevels] = hist(h(:), numberOfBins);
+c = sum(pixelCount(52:62));
+vdgpr = c/totalPixels;
+disp(vdgpr);
+% fName = 'output.txt';
+% fid = fopen(fName, 'w');
+% fprintf(fid, '%s, %d\r\n', img, vdgpr);
+% fclose(fid);

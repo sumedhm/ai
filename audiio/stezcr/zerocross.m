@@ -3,7 +3,7 @@ function zc = zerocross(x,wintype,winamp,winlen)
 error(nargchk(1,4,nargin,'struct'));
 
 % generate x[n] and x[n-1]
-x1 = x;
+x1 = [x(1:end)];
 x2 = [0, x(1:end-1)];
 
 % generate the first difference

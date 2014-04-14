@@ -1,0 +1,59 @@
+corr2 replay
+
+    10194
+
+  Columns 10 through 12
+
+       10195       10749       10750
+
+  Columns 13 through 15
+
+       16365       16366       16629
+
+  Columns 16 through 18
+
+       16630       16961       17217
+
+  Columns 19 through 21
+
+       17218       17753       17754
+
+  Columns 22 through 24
+
+       17887       17888       19668
+
+  Columns 25 through 27
+
+       19669       19978       20545
+
+  Columns 28 through 30
+
+       20546       20672       20673
+
+  Columns 31 through 33
+
+       23688       23689       23899
+
+  Columns 34 through 36
+
+       23900       24878       24879
+
+  Columns 37 through 39
+
+       25160       27251       27544
+
+  Columns 40 through 42
+
+       31620       31621       32579
+
+  Columns 43 through 45
+
+       32580       32581       32866
+
+  Columns 46 through 48
+
+       33396       33558       33559
+
+  Columns 49 through 51
+
+       35320       35540       35541
